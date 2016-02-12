@@ -1,1 +1,9 @@
-WRITE ME!
+A simple python project template for making buildout-enabled projects.
+
+After cloning, run:
+
+    python bootstrap.py
+	bin/buildout
+	bin/test
+	
+Assuming no errors, you are good to go!  I suggest renaming the `project_rename` folder to something more appropriate.  Make sure to change references in `setup.py`, `buildout.cfg`, and anywhere else it shows up.
